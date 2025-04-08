@@ -50,25 +50,79 @@ The game is aimed at casual gamers that focus more on the story and puzzle solvi
 
 ### Gameplay Overview
 
+The player is reading a comic book. As the book progresses, they can grab objects from the comic and use these objects elsewhere in the comic.
+The player can only advance in the comic book. When the player uses an object to discover a new place, the following pages are changed, leading to another ending.
 
+### Primary Mechanics
+
+#### Extract and Interact
+
+The player can grab certain objects from the book. They can also interact with some objects, sometimes requiring to have an object or to solve a puzzle.
+
+#### One-Way Reading
+
+The book must be read in one go. Once the last page is read, the player returns to the beginning.
+
+### Secondary mecanics
+
+#### Information Gathering
+
+The objects you can interact with are initially mixed with the rest of the image. As you progress, you unlock hints that will help you see the objects you can interact with. These hints are preserved even after each restart of the book.
+
+#### Pages distinction
+
+The page are separated between interaction and movement pages.
+- The interaction pages contain information to progress further into the game and objects to grab
+- The movement pages contain decisions that will change the outcome of the book
 
 
 
 ## Art
 
+TODO
+
 
 
 ## Audio
+
+### Ambiance
+
+Audio sounds are played corresponding to the current page opened. It improves the player's involvment in the scene by playing associated sounds (for example keyboards clicks in an office space, or elevator music inside an elevator).
+
+### SFX
+
+Interactions with the environment make specific sounds
 
 
 
 ## Game Experience
 
+The game is designed as a point-and-click. All the actions are performed using the mouse. The objects must be clicked. They can be highlighted when hovered (or when hints are found). To change page the side of the page can be clicked, or in the case of a manhwa it is scrolled.
 
 
 ## Development Timeline
 
+### POC
+
+- [ ] One story line with few branches
+- [ ] Basic page change
+- [ ] Basic art for the pages
+- [ ] Grab objects
+- [ ] Basic Objects UI
+
 ### MVP
+
+- [ ] Better story line
+- [ ] Book page change (3D-ish)
+- [ ] Configuration file to define scenes
+- [ ] Save file
+- [ ] Ambiance sounds
+- [ ] Objects sounds
+- [ ] Better object UI
 
 
 ### Beyond
+
+- [ ] Even better story
+- [ ] Even better art
+- [ ] 
